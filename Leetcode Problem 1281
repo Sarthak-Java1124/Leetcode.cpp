@@ -1,0 +1,18 @@
+ cout<<"Enter the number you want to perform operations on";
+        cin>>n;
+
+        int pro = 1;
+        int sum = 0;
+        while(n!=0){
+             int digit = n%10;
+            pro  = pro *digit;
+            sum = sum + digit;
+            n = n/10;
+           
+        }
+         int answer = pro - sum;
+             cout<<"The answer is "<<" "<<answer;
+       
+        return answer;
+
+ }
