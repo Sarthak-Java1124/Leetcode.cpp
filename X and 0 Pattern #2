@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int n;
+    cin>>n;
+   for(int i = 1 ; i<=n ; i++){
+       for(int j = 1 ; j<=n ; j++){
+           if(i==j){
+               cout<<"0";
+           }else {
+               cout<<"X";
+           }
+
+       }
+              cout<<endl;
+   }
+        
+}
+
+output for n=5:
+5
+0XXXX
+X0XXX
+XX0XX
+XXX0X
+XXXX0
+
